@@ -262,12 +262,13 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #c5e20c;
+    color: yellow;
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -331,7 +332,7 @@ main {
 }
 
 #flyer1-image {
-    display: flex;
+    display: table;
     align-items: center;
     justify-content: center;
 }
@@ -348,7 +349,7 @@ main {
 }
 
 #flyer2-image {
-    display: flex;
+    display: table;
     align-items: center;
     justify-content: center;
 }
@@ -402,6 +403,18 @@ main {
         background-color: #fafafa;
         color: #001361;
     }
+
+        #flyer1-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        #flyer2-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
 }
 
 @media screen and (min-width: 1200px) {

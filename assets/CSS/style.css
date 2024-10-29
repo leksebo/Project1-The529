@@ -268,8 +268,22 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: yellow;
+    color: rgb(178, 11, 142);
 }
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {

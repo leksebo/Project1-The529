@@ -56,7 +56,7 @@ button {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: rgba(83, 83, 242, 0.521);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -122,6 +122,56 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+/*FIRST SECTION*/
+
+.banner {
+    position: relative;
+    height: 500px;
+}
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.banner-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.banner-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+
+
+
 
 /* Reasons section */
 #reasons {
@@ -269,7 +319,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: rgb(178, 11, 142);
+    color: rgb(5, 0, 4);
 }
 
 .fa{

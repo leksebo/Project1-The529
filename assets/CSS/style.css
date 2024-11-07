@@ -23,6 +23,7 @@ font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff;
+    -webkit-text-stroke: 1px yellow;
 }
 
 h2, h3, h4 {
@@ -79,6 +80,7 @@ header a {
 
  .logo {
      max-width: 100px;
+     max-height: fit-content;
  }
 
 
@@ -122,6 +124,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: black;
 }
 
 main {
@@ -196,10 +199,7 @@ main {
     padding: 5px;
 }
 
-
-
 /*FLYER SECTION*/
-
 
 .flyer .btn {
     position: absolute;
@@ -222,10 +222,7 @@ main {
    border: 5px solid #555;  
 }
 
-
-
-
-
+/*THIRD SECTION*/
 /* Upcoming Events section */
 #times {
     background: url('../images/canary.jpg') no-repeat center/cover;
@@ -387,60 +384,11 @@ main {
         margin-top: 79px;
     }
 
- /* Honor */
-        #cover-text {
-        width: 300px;
-        right: 50px;
-    } 
-#circle-cover-bg {
-    background: url('../images/blueflyer.jpeg') no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#flyer1-image {
-    display: table;
-    align-items: center;
-    justify-content: center;
-}
-
-#circle-cover-bg2 {
-    background: url('../images/sold\ out\ flyer.jpeg') no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#flyer2-image {
-    display: table;
-    align-items: center;
-    justify-content: center;
-}
-
     /* Gallery */
     #photos {
         column-count: 3;
     }
 
-     /* Reasons section */
-    #benefits-529 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        }
-    
-        #benefits-529 > div {
-            width: 75%;
-        }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -476,40 +424,10 @@ main {
         color: #001361;
     }
 
-        #flyer1-image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        }
-
-        #flyer2-image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        }
+  
 }
 
 @media screen and (min-width: 1200px) {
 
-    /* Reasons section */
-    #benefits {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #benefits > div {
-        flex: 1;
-    }
-
-    #benefits-529 > div {
-        align-self: flex-end;
-    }
-
-    #flyer1-image {
-    order: 0;
 }
 
-    #flyer2-image {
-    order: 0;
-}
-}

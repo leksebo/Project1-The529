@@ -200,15 +200,6 @@ main {
 
 /*FLYER SECTION*/
 
-.flyer {
-    position: relative;
-    width: 50%;
-}
-
-.flyer img {
-    margin: 20%
-    
-}
 
 .flyer .btn {
     position: absolute;
@@ -221,7 +212,15 @@ main {
     background-color: #001361;
 }
 
+.row {
+    display: flex;
+}
 
+.column {
+    flex: 33.33%;
+    padding: 5px;
+   border: 5px solid #555;  
+}
 
 
 

@@ -81,8 +81,11 @@ header a {
 
 
  .logo {
-     max-width: 100px;
-     max-height: fit-content;
+    position: fixed;
+     width: 100px;
+     top: 0;
+     left: 0;
+   
  }
 
 
@@ -100,7 +103,7 @@ header a {
 
 .active {
     border-bottom: 1px solid yellow;
-    background-color: lightblue;
+    background-color: rgba(83, 83, 242, 0.521)
 }
 
 /* Navbar styles with dropdown toggle */
@@ -195,24 +198,9 @@ main {
     animation: flash 3.5s infinite;
 }
 
-.column {
-    float: left;
-    width: 33.33;
-    padding: 5px;
-}
+
 
 /*FLYER SECTION*/
-
-.flyer .btn {
-    position: absolute;
-    top: 50%;
-    margin-left: 50%;
-       
-}
-
-.flyer .btn:hover {
-    background-color: #001361;
-}
 
 .row {
     display: flex;
@@ -221,7 +209,7 @@ main {
 .column {
     flex: 33.33%;
     padding: 5px;
-   border: 5px solid #555;  
+   border: 5px solid rgba(83, 83, 242, 0.521);  
 }
 
 /*THIRD SECTION*/
@@ -235,7 +223,7 @@ main {
 
 #times div {
     color: #fafafa;
-    -webkit-text-stroke: 0.5px yellow;
+    -webkit-text-stroke: 0.5px rgba(83, 83, 242, 0.521);
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;

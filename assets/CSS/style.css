@@ -23,7 +23,7 @@ font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff;
-    -webkit-text-stroke: 1px yellow;
+    -webkit-text-stroke: 1px rgba(83, 83, 242, 0.521);
 }
 
 h2, h3, h4 {
@@ -32,6 +32,8 @@ h2, h3, h4 {
     letter-spacing: 2px;
     color: #252525;   
 }
+
+
 
 
 .btn {
@@ -46,7 +48,7 @@ h2, h3, h4 {
 }
 /*Button to buy tickets*/
 button {
-    background-color: yellow;
+    background-color: rgba(83, 83, 242, 0.521);
         color: black;
         padding: 5px;
         cursor: pointer;

@@ -38,7 +38,7 @@ h2, h3, h4 {
 
 /*Button to buy tickets*/
 button {
-    background-color: rgba(6, 6, 246, 0.521);
+    background-color: #ffffff;
         color: rgba(2, 2, 47, 0.521);
         padding: 5px;
         cursor: pointer;
@@ -53,12 +53,12 @@ button {
 
 /* Header */
 header {
-    background-color: rgba(83, 83, 242, 0.521);
+    background-color: rgb(57, 102, 138);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px rgba(50, 50, 202, 0.521);
+    box-shadow: 0 2px 2px rgb(37, 77, 107);
     display: flex;
     justify-content: space-between;
     align-items: baseline;    
@@ -89,7 +89,7 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -288,7 +288,7 @@ main {
     border-radius: 4px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #001361;
+    background-color: rgba(11, 175, 235, 0.521)
     color: #fafafa;
 }
 
@@ -305,7 +305,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: rgb(5, 0, 4);
+    color: rgb(57, 102, 138)
 }
 
 .fa{

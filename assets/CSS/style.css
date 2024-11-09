@@ -3,10 +3,12 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    padding: 0;
+    padding: 150;
     margin: 200;
     box-sizing: border-box;
 }
+
+
 
 /* General styles */
 body {
@@ -34,6 +36,15 @@ h2, h3, h4 {
     letter-spacing: 2px;
     color: rgb(7, 66, 128);
     -webkit-text-stroke: 1px rgba(83, 83, 242, 0.521);
+}
+
+p {
+    font-family: sans-serif;
+    margin-top: 2px;
+    text-align: center;
+    margin-bottom: 5px;
+   
+    
 }
 
 /*Button to buy tickets*/
@@ -71,10 +82,16 @@ header a {
     color: inherit;
 }
 
+header img {
+    object-fit: contain;
+}   
+
 
  .logo {
     position: fixed;
-     width: 100px;
+     width: 40px;
+     margin-left: 10px;
+     margin-bottom
      top: 0;
      left: 0;
    
@@ -117,6 +134,7 @@ nav {
 
 #nav-toggle {
     display: none;
+    align-items: center;
 }
 
 .nav-toggle-label {
@@ -158,6 +176,7 @@ main {
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
+    flex-wrap: wrap;
 }
 
 .banner-text {
@@ -191,17 +210,30 @@ main {
 }
 
 
+.about {
+
+}
 
 /*FLYER SECTION*/
 
 .row {
     display: flex;
+    
 }
 
 .column {
     flex: 33.33%;
     padding: 5px;
-   border: 5px solid rgba(83, 83, 242, 0.521);  
+    border: 5px solid rgba(83, 83, 242, 0.521); 
+     
+}
+
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5%;
 }
 
 /*THIRD SECTION*/
@@ -293,6 +325,11 @@ main {
 }
 
 /* Footer */
+footer {
+    background-color: rgb(57, 102, 138);
+}
+
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -305,7 +342,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: rgb(57, 102, 138)
+    color: #ffffff(57, 102, 138)
 }
 
 .fa{

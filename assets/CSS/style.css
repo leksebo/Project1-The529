@@ -212,9 +212,11 @@ main {
 
 .about {
     background-color: rgb(57, 102, 138);
-    /* Handles responsivity without the need for a media query */
-    display: flex;
-    flex-wrap: wrap;
+    color: #fafafa;
+    font-family: sans-serif;
+    
+    
+    
 }
 
 .about div {
@@ -231,9 +233,7 @@ main {
     border: 2px solid white;
 }
 
-.about p {
-    col
-}
+
 
 /*FLYER SECTION*/
 
@@ -418,11 +418,7 @@ footer {
         display: none;
     }
 
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
+    
 
     /* Main content */
     main {

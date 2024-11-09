@@ -211,7 +211,28 @@ main {
 
 
 .about {
+    background-color: rgb(57, 102, 138);
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.about div {
+    color: #fafafa;
+    -webkit-text-stroke: 0.5px rgba(83, 83, 242, 0.521);
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time dives over the background image */
+    border: 2px solid white;
+}
+
+.about p {
+    col
 }
 
 /*FLYER SECTION*/
@@ -238,7 +259,7 @@ img {
 
 .xmas-button {
     align-items: center;
-    margin: 20px;
+    margin-left: 50%;
 }
 
 /*THIRD SECTION*/
@@ -332,6 +353,7 @@ img {
 /* Footer */
 footer {
     background-color: rgb(57, 102, 138);
+    box-shadow: 2px 2px 2px rgb(37, 77, 107);
 }
 
 

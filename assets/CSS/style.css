@@ -236,6 +236,11 @@ img {
     border-radius: 5%;
 }
 
+.xmas-button {
+    align-items: center;
+    margin: 20px;
+}
+
 /*THIRD SECTION*/
 /* Upcoming Events section */
 #times {

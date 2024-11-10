@@ -94,7 +94,7 @@ header img {
      margin-bottom: 75px;
      margin-top: -50px;
      left: 0;
-   
+     
  }
 
 
@@ -220,20 +220,18 @@ main {
 }
 
 .about div {
-    color: #fafafa;
-    -webkit-text-stroke: 0.5px rgba(83, 83, 242, 0.521);
-    background-color: rgba(0, 0, 0, .6);
-    padding: 15px;
-    text-align: center;
-    /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
-    flex-basis: 200px;
-    flex-grow: 1;
-    /* Creates a grid of meetup time dives over the background image */
-    border: 2px solid white;
+    flex: 1;
+/* This makes each column take up equal space */
+    padding: 10px;
+/* Adds some space around the text */
+    border: 1px solid #ccc;
+/* Optional: adds a border to each column */
 }
 
+.soundcloud-embed {
+    font-size: 10px;
 
+}
 
 /*FLYER SECTION*/
 
@@ -418,7 +416,14 @@ footer {
         display: none;
     }
 
+        /*FLYER SECTION*/
     
+    .column {
+        column-count: 1;
+    }
+            
+    
+     
 
     /* Main content */
     main {

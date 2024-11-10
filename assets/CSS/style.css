@@ -307,7 +307,7 @@ img {
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgb(57, 102, 138);
     padding: 30px;
     border-radius: 4px;
     margin-top: 50px;
@@ -433,6 +433,7 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+        
     }
 
     /* Gallery */

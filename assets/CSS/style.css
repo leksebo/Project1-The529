@@ -97,10 +97,6 @@ header img {
      
  }
 
-     	
-    
-
-
 
 /*Menu for nav in header*/
 #menu {
@@ -340,20 +336,16 @@ img {
 }
 
 
-.radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-
 .join-button {
     margin-top: 20px;
-    border-radius: 4px;
+    border-radius: 7px;
     padding: 15px 32px;
     font-size: 100%;
     background-color: rgba(11, 175, 235, 0.521)
     color: #fafafa;
+    display: block;
+    margin: auto;
+    
 }
 
 /* Footer */

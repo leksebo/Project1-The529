@@ -406,7 +406,7 @@ footer {
 
 
     .logo {
-        /*TO DO - NEED TO ADD*/
+        /*TO DO - NEED DO*/
     }
     #menu {
         display: flex;
@@ -433,7 +433,6 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
-        
     }
 
     /* Gallery */

@@ -97,6 +97,9 @@ header img {
      
  }
 
+     	
+    
+
 
 
 /*Menu for nav in header*/
@@ -311,6 +314,11 @@ img {
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
     border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
 }
 
 

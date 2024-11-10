@@ -242,7 +242,7 @@ main {
 .column {
     flex: 33.33%;
     padding: 5px;
-    border: 5px solid rgba(83, 83, 242, 0.521); 
+    border: 5px solid rgba(255, 255, 255, 0.521); 
      
 }
 
@@ -253,6 +253,8 @@ img {
     object-fit: cover;
     border-radius: 5%;
 }
+
+
 
 .xmas-button {
     align-items: center;
@@ -367,7 +369,7 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #ffffff(57, 102, 138)
+    color: #ffffff
 }
 
 .fa{
@@ -426,9 +428,6 @@ footer {
         column-count: 1;
     }
             
-    
-     
-
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */

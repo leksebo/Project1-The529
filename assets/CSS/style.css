@@ -15,6 +15,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /*recent addition 10/11/24 */
+    flex-grow: inherit;
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
@@ -89,11 +91,11 @@ header img {
 
  .logo {
     position: fixed;
-     width: 40px;
-     margin-left: 10px;
-     margin-bottom: 75px;
-     margin-top: -50px;
-     left: 0;
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 75px;
+    margin-top: -50px;
+    left: 0;
      
  }
 
@@ -212,10 +214,7 @@ main {
 .about {
     background-color: rgb(57, 102, 138);
     color: #fafafa;
-    font-family: sans-serif;
-    
-    
-    
+    font-family: sans-serif;  
 }
 
 .about div {
